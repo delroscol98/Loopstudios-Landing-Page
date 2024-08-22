@@ -1,8 +1,7 @@
 .hero {
   height: 65rem;
   padding: 4rem 2.4rem;
-  background-image: linear-gradient(rgba($black, 0.4), rgba($black, 0.4)),
-    url(../../images/mobile/image-hero.jpg);
+  background-image: url(../../images/mobile/image-hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -13,6 +12,10 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+  }
+
+  @media screen and (min-width: 64em) {
+    padding: 6.4rem 16.5rem;
   }
 
   &__header {

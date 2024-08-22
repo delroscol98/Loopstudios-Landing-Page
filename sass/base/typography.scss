@@ -2,6 +2,12 @@ html {
   font-size: 62.5%;
 }
 
+@media screen and (max-width: 23em) {
+  html {
+    font-size: 50%;
+  }
+}
+
 .alata-regular {
   font-family: "Alata", sans-serif;
   font-weight: 400;

@@ -1,0 +1,55 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+body {
+  box-sizing: inherit;
+  min-height: 100vh; }
+
+html {
+  font-size: 62.5%; }
+
+@media screen and (max-width: 23em) {
+  html {
+    font-size: 50%; } }
+
+.alata-regular {
+  font-family: "Alata", sans-serif;
+  font-weight: 400; }
+
+.josefin-sans-light {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300; }
+
+.hero {
+  height: 65rem;
+  padding: 4rem 2.4rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../images/mobile/image-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  @media screen and (min-width: 43.75em) {
+    .hero {
+      background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../images/desktop/image-hero.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; } }
+  .hero__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16.3rem; }
+  .hero__logo {
+    width: 14.4rem; }
+  .hero__heading {
+    color: white;
+    font-size: clamp(4rem, 10.66667vw, 7.2rem);
+    line-height: calc(38 / 40);
+    padding: 2.6rem 2.4rem;
+    border: 2px solid white;
+    max-width: 65rem; }
+    @media screen and (min-width: 43.75em) {
+      .hero__heading {
+        padding: 4rem; } }

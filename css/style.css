@@ -56,3 +56,23 @@ html {
     @media screen and (min-width: 43.75em) {
       .hero__heading {
         padding: 4rem; } }
+
+.leader {
+  padding: 9.4rem 2.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem; }
+  .leader__image {
+    width: 100%;
+    max-width: 73.1rem; }
+  .leader__text-container {
+    text-align: center;
+    display: grid;
+    gap: 1.6rem;
+    padding: 0 2.4rem; }
+  .leader__heading {
+    font-size: clamp(3.2rem, 8.53333vw, 4.8rem); }
+  .leader__paragraph {
+    font-size: 1.5rem;
+    color: dimgray;
+    line-height: calc(25 / 15); }

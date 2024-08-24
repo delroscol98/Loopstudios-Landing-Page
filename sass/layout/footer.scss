@@ -64,6 +64,13 @@
   &__socials-btn {
     border: none;
     background: transparent;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s;
+
+    &:hover {
+      cursor: pointer;
+      border-bottom: 2px solid $white;
+    }
   }
 
   &__copyright {

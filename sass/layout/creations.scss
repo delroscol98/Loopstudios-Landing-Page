@@ -1,10 +1,22 @@
 .creations {
   padding: 0 2.4rem;
 
+  @media screen and (min-width: 64em) {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 8rem;
+    padding: 0 16.5rem;
+  }
+
   &__heading {
     font-size: 3.2rem;
     text-align: center;
     margin-bottom: 4.8rem;
+
+    @media screen and (min-width: 64em) {
+      margin: 0;
+      text-align: left;
+    }
 
     @media screen and (min-width: 90em) {
       font-size: 4.8rem;
@@ -14,50 +26,136 @@
   &__card-container {
     display: grid;
     gap: 2.4rem;
+
+    @media screen and (min-width: 50em) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media screen and (min-width: 64em) {
+      gap: 3rem;
+      grid-template-columns: repeat(4, 1fr);
+      grid-column: 1 / -1;
+    }
   }
 
   &__card {
     height: 12rem;
     background-size: cover;
 
+    @media screen and (min-width: 64em) {
+      height: 45rem;
+    }
+
     &--earth {
       background-image: linear-gradient(90deg, rgba($black, 0.6), transparent),
         url(../../images/mobile/image-deep-earth.jpg);
+
+      @media screen and (min-width: 64em) {
+        background-image: linear-gradient(
+            360deg,
+            rgba($black, 0.6),
+            transparent
+          ),
+          url(../../images/desktop/image-deep-earth.jpg);
+      }
     }
 
     &--arcade {
       background-image: linear-gradient(90deg, rgba($black, 0.6), transparent),
         url(../../images/mobile/image-night-arcade.jpg);
+
+      @media screen and (min-width: 64em) {
+        background-image: linear-gradient(
+            360deg,
+            rgba($black, 0.6),
+            transparent
+          ),
+          url(../../images/desktop/image-night-arcade.jpg);
+      }
     }
 
     &--soccer {
       background-image: linear-gradient(90deg, rgba($black, 0.6), transparent),
         url(../../images/mobile/image-soccer-team.jpg);
+
+      @media screen and (min-width: 64em) {
+        background-image: linear-gradient(
+            360deg,
+            rgba($black, 0.6),
+            transparent
+          ),
+          url(../../images/desktop/image-soccer-team.jpg);
+      }
     }
 
     &--grid {
       background-image: linear-gradient(90deg, rgba($black, 0.6), transparent),
         url(../../images/mobile/image-grid.jpg);
+
+      @media screen and (min-width: 64em) {
+        background-image: linear-gradient(
+            360deg,
+            rgba($black, 0.6),
+            transparent
+          ),
+          url(../../images/desktop/image-grid.jpg);
+      }
     }
 
     &--above {
       background-image: linear-gradient(90deg, rgba($black, 0.6), transparent),
         url(../../images/mobile/image-from-above.jpg);
+
+      @media screen and (min-width: 64em) {
+        background-image: linear-gradient(
+            360deg,
+            rgba($black, 0.6),
+            transparent
+          ),
+          url(../../images/desktop/image-from-above.jpg);
+      }
     }
 
     &--borealis {
       background-image: linear-gradient(90deg, rgba($black, 0.6), transparent),
         url(../../images/mobile/image-pocket-borealis.jpg);
+
+      @media screen and (min-width: 64em) {
+        background-image: linear-gradient(
+            360deg,
+            rgba($black, 0.6),
+            transparent
+          ),
+          url(../../images/desktop/image-pocket-borealis.jpg);
+      }
     }
 
     &--curiosity {
       background-image: linear-gradient(90deg, rgba($black, 0.6), transparent),
         url(../../images/mobile/image-curiosity.jpg);
+
+      @media screen and (min-width: 64em) {
+        background-image: linear-gradient(
+            360deg,
+            rgba($black, 0.6),
+            transparent
+          ),
+          url(../../images/desktop/image-curiosity.jpg);
+      }
     }
 
     &--fisheye {
       background-image: linear-gradient(90deg, rgba($black, 0.6), transparent),
         url(../../images/mobile/image-fisheye.jpg);
+
+      @media screen and (min-width: 64em) {
+        background-image: linear-gradient(
+            360deg,
+            rgba($black, 0.6),
+            transparent
+          ),
+          url(../../images/desktop/image-fisheye.jpg);
+      }
     }
   }
 
@@ -68,6 +166,15 @@
     top: 5.2rem;
     color: $white;
     max-width: max-content;
+
+    @media screen and (min-width: 64em) {
+      top: 35.4rem;
+      left: 2rem;
+    }
+
+    @media screen and (min-width: 90em) {
+      left: 4rem;
+    }
   }
 
   &__btn {
@@ -79,5 +186,14 @@
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+
+    @media screen and (min-width: 64em) {
+      grid-column: 2 / 3;
+      grid-row: 1;
+      margin: 0;
+      position: static;
+      justify-self: end;
+      transform: none;
+    }
   }
 }

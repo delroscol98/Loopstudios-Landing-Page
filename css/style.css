@@ -59,19 +59,44 @@ html {
 
 .leader {
   padding: 9.4rem 2.4rem;
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 4.8rem; }
+  @media screen and (min-width: 50em) {
+    .leader {
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center; } }
+  @media screen and (min-width: 64em) {
+    .leader {
+      grid-template-columns: repeat(8, 1fr);
+      gap: 0;
+      padding: 16rem 16.5rem; } }
   .leader__image {
     width: 100%;
     max-width: 73.1rem; }
+    @media screen and (min-width: 64em) {
+      .leader__image {
+        grid-column: 1 / 6;
+        grid-row: 1/1; } }
   .leader__text-container {
     text-align: center;
     display: grid;
     gap: 1.6rem;
     padding: 0 2.4rem; }
+    @media screen and (min-width: 64em) {
+      .leader__text-container {
+        grid-column: 5 / 9;
+        grid-row: 1/1;
+        background-color: white;
+        align-self: end;
+        padding: 3rem 0 0 3rem; } }
+    @media screen and (min-width: 78.125em) {
+      .leader__text-container {
+        padding: 10rem 0 0 10rem; } }
   .leader__heading {
-    font-size: clamp(3.2rem, 8.53333vw, 4.8rem); }
+    font-size: 3.2rem; }
+    @media screen and (min-width: 90em) {
+      .leader__heading {
+        font-size: 4.8rem; } }
   .leader__paragraph {
     font-size: 1.5rem;
     color: dimgray;

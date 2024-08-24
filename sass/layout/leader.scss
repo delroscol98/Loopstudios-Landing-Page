@@ -3,9 +3,25 @@
   display: grid;
   gap: 4.8rem;
 
+  @media screen and (min-width: 50em) {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+
+  @media screen and (min-width: 64em) {
+    grid-template-columns: repeat(8, 1fr);
+    gap: 0;
+    padding: 16rem 16.5rem;
+  }
+
   &__image {
     width: 100%;
     max-width: 73.1rem;
+
+    @media screen and (min-width: 64em) {
+      grid-column: 1 / 6;
+      grid-row: 1/1;
+    }
   }
 
   &__text-container {
@@ -13,10 +29,26 @@
     display: grid;
     gap: 1.6rem;
     padding: 0 2.4rem;
+
+    @media screen and (min-width: 64em) {
+      grid-column: 5 / 9;
+      grid-row: 1/1;
+      background-color: $white;
+      align-self: end;
+      padding: 3rem 0 0 3rem;
+    }
+
+    @media screen and (min-width: 78.125em) {
+      padding: 10rem 0 0 10rem;
+    }
   }
 
   &__heading {
-    font-size: clamp(3.2rem, 8.5333333333vw, 4.8rem);
+    font-size: 3.2rem;
+
+    @media screen and (min-width: 90em) {
+      font-size: 4.8rem;
+    }
   }
 
   &__paragraph {

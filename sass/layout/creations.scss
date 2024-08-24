@@ -1,11 +1,11 @@
 .creations {
-  padding: 0 2.4rem;
+  padding: 0 2.4rem 9.6rem;
 
   @media screen and (min-width: 64em) {
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: 8rem;
-    padding: 0 16.5rem;
+    padding: 0 16.5rem 18.4rem;
   }
 
   &__heading {

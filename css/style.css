@@ -77,6 +77,39 @@ html {
   .hero__hamburger {
     width: 2.4rem;
     height: 1.6rem; }
+    @media screen and (min-width: 64em) {
+      .hero__hamburger {
+        display: none; } }
+  .hero__nav {
+    display: flex;
+    gap: 3.2rem; }
+    @media screen and (max-width: 64em) {
+      .hero__nav {
+        display: none; } }
+  .hero__list {
+    list-style: none;
+    display: flex;
+    gap: 3.2rem; }
+  .hero__link {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    position: relative; }
+    .hero__link::after {
+      content: "";
+      position: absolute;
+      width: 50%;
+      height: 2px;
+      background-color: white;
+      bottom: -5px;
+      left: 50%;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: all 0.2s; }
+    .hero__link:hover {
+      cursor: pointer; }
+      .hero__link:hover::after {
+        opacity: 1; }
   .hero__heading {
     color: white;
     font-size: clamp(4rem, 10.66667vw, 7.2rem);

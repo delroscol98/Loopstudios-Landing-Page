@@ -25,14 +25,14 @@ html {
   font-weight: 300; }
 
 .navigation {
-  display: none; }
-  .navigation.isOpen {
-    min-height: 100vh;
-    width: -webkit-fill-available;
-    background-color: black;
-    padding: 4rem 2.4rem;
-    position: fixed;
-    z-index: 1000; }
+  min-height: 100vh;
+  width: -webkit-fill-available;
+  background-color: black;
+  padding: 4rem 2.4rem;
+  position: fixed;
+  z-index: 1000; }
+  .navigation.closed {
+    display: none; }
   .navigation__header {
     display: flex;
     justify-content: space-between; }

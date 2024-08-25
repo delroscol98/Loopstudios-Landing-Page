@@ -1,0 +1,39 @@
+.navigation {
+  display: none;
+  &.isOpen {
+    min-height: 100vh;
+    width: -webkit-fill-available;
+    background-color: $black;
+    padding: 4rem 2.4rem;
+    position: fixed;
+    z-index: 1000;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    width: 14.4rem;
+  }
+
+  &__close {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  &__container {
+    display: grid;
+    gap: 2.4rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  &__link {
+    font-size: 2.4rem;
+    color: $white;
+    text-decoration: none;
+  }
+}

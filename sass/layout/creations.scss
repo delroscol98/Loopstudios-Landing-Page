@@ -52,12 +52,12 @@
 
     &--earth {
       background-image: linear-gradient(90deg, rgba($black, 0.6), transparent),
-        url(../../images/mobile/image-deep-earth.jpg);
+        url(../images/mobile/image-deep-earth.jpg);
       transition: all 0.2s;
 
       &:hover {
         background-image: linear-gradient(rgba($white, 0.75), rgba($white, 0.6)),
-          url(../../images/mobile/image-deep-earth.jpg);
+          url(../images/mobile/image-deep-earth.jpg);
       }
 
       @media screen and (min-width: 64em) {
@@ -66,25 +66,25 @@
             rgba($black, 0.6),
             transparent
           ),
-          url(../../images/desktop/image-deep-earth.jpg);
+          url(../images/desktop/image-deep-earth.jpg);
 
         &:hover {
           background-image: linear-gradient(
               rgba($white, 0.75),
               rgba($white, 0.6)
             ),
-            url(../../images/desktop/image-deep-earth.jpg);
+            url(../images/desktop/image-deep-earth.jpg);
         }
       }
     }
 
     &--arcade {
       background-image: linear-gradient(90deg, rgba($black, 0.6), transparent),
-        url(../../images/mobile/image-night-arcade.jpg);
+        url(../images/mobile/image-night-arcade.jpg);
 
       &:hover {
         background-image: linear-gradient(rgba($white, 0.75), rgba($white, 0.6)),
-          url(../../images/mobile/image-night-arcade.jpg);
+          url(../images/mobile/image-night-arcade.jpg);
       }
 
       @media screen and (min-width: 64em) {
@@ -93,25 +93,25 @@
             rgba($black, 0.6),
             transparent
           ),
-          url(../../images/desktop/image-night-arcade.jpg);
+          url(../images/desktop/image-night-arcade.jpg);
 
         &:hover {
           background-image: linear-gradient(
               rgba($white, 0.75),
               rgba($white, 0.6)
             ),
-            url(../../images/desktop/image-night-arcade.jpg);
+            url(../images/desktop/image-night-arcade.jpg);
         }
       }
     }
 
     &--soccer {
       background-image: linear-gradient(90deg, rgba($black, 0.6), transparent),
-        url(../../images/mobile/image-soccer-team.jpg);
+        url(../images/mobile/image-soccer-team.jpg);
 
       &:hover {
         background-image: linear-gradient(rgba($white, 0.75), rgba($white, 0.6)),
-          url(../../images/mobile/image-soccer-team.jpg);
+          url(../images/mobile/image-soccer-team.jpg);
       }
 
       @media screen and (min-width: 64em) {
@@ -120,25 +120,25 @@
             rgba($black, 0.6),
             transparent
           ),
-          url(../../images/desktop/image-soccer-team.jpg);
+          url(../images/desktop/image-soccer-team.jpg);
 
         &:hover {
           background-image: linear-gradient(
               rgba($white, 0.75),
               rgba($white, 0.6)
             ),
-            url(../../images/desktop/image-soccer-team.jpg);
+            url(../images/desktop/image-soccer-team.jpg);
         }
       }
     }
 
     &--grid {
       background-image: linear-gradient(90deg, rgba($black, 0.6), transparent),
-        url(../../images/mobile/image-grid.jpg);
+        url(../images/mobile/image-grid.jpg);
 
       &:hover {
         background-image: linear-gradient(rgba($white, 0.75), rgba($white, 0.6)),
-          url(../../images/mobile/image-grid.jpg);
+          url(../images/mobile/image-grid.jpg);
       }
 
       @media screen and (min-width: 64em) {
@@ -147,25 +147,25 @@
             rgba($black, 0.6),
             transparent
           ),
-          url(../../images/desktop/image-grid.jpg);
+          url(../images/desktop/image-grid.jpg);
 
         &:hover {
           background-image: linear-gradient(
               rgba($white, 0.75),
               rgba($white, 0.6)
             ),
-            url(../../images/desktop/image-grid.jpg);
+            url(../images/desktop/image-grid.jpg);
         }
       }
     }
 
     &--above {
       background-image: linear-gradient(90deg, rgba($black, 0.6), transparent),
-        url(../../images/mobile/image-from-above.jpg);
+        url(../images/mobile/image-from-above.jpg);
 
       &:hover {
         background-image: linear-gradient(rgba($white, 0.75), rgba($white, 0.6)),
-          url(../../images/mobile/image-from-above.jpg);
+          url(../images/mobile/image-from-above.jpg);
       }
 
       @media screen and (min-width: 64em) {
@@ -174,25 +174,25 @@
             rgba($black, 0.6),
             transparent
           ),
-          url(../../images/desktop/image-from-above.jpg);
+          url(../images/desktop/image-from-above.jpg);
 
         &:hover {
           background-image: linear-gradient(
               rgba($white, 0.75),
               rgba($white, 0.6)
             ),
-            url(../../images/desktop/image-from-above.jpg);
+            url(../images/desktop/image-from-above.jpg);
         }
       }
     }
 
     &--borealis {
       background-image: linear-gradient(90deg, rgba($black, 0.6), transparent),
-        url(../../images/mobile/image-pocket-borealis.jpg);
+        url(../images/mobile/image-pocket-borealis.jpg);
 
       &:hover {
         background-image: linear-gradient(rgba($white, 0.75), rgba($white, 0.6)),
-          url(../../images/mobile/image-pocket-borealis.jpg);
+          url(../images/mobile/image-pocket-borealis.jpg);
       }
 
       @media screen and (min-width: 64em) {
@@ -201,25 +201,25 @@
             rgba($black, 0.6),
             transparent
           ),
-          url(../../images/desktop/image-pocket-borealis.jpg);
+          url(../images/desktop/image-pocket-borealis.jpg);
 
         &:hover {
           background-image: linear-gradient(
               rgba($white, 0.75),
               rgba($white, 0.6)
             ),
-            url(../../images/desktop/image-pocket-borealis.jpg);
+            url(../images/desktop/image-pocket-borealis.jpg);
         }
       }
     }
 
     &--curiosity {
       background-image: linear-gradient(90deg, rgba($black, 0.6), transparent),
-        url(../../images/mobile/image-curiosity.jpg);
+        url(../images/mobile/image-curiosity.jpg);
 
       &:hover {
         background-image: linear-gradient(rgba($white, 0.75), rgba($white, 0.6)),
-          url(../../images/mobile/image-curiosity.jpg);
+          url(../images/mobile/image-curiosity.jpg);
       }
 
       @media screen and (min-width: 64em) {
@@ -228,25 +228,25 @@
             rgba($black, 0.6),
             transparent
           ),
-          url(../../images/desktop/image-curiosity.jpg);
+          url(../images/desktop/image-curiosity.jpg);
 
         &:hover {
           background-image: linear-gradient(
               rgba($white, 0.75),
               rgba($white, 0.6)
             ),
-            url(../../images/desktop/image-curiosity.jpg);
+            url(../images/desktop/image-curiosity.jpg);
         }
       }
     }
 
     &--fisheye {
       background-image: linear-gradient(90deg, rgba($black, 0.6), transparent),
-        url(../../images/mobile/image-fisheye.jpg);
+        url(../images/mobile/image-fisheye.jpg);
 
       &:hover {
         background-image: linear-gradient(rgba($white, 0.75), rgba($white, 0.6)),
-          url(../../images/mobile/image-fisheye.jpg);
+          url(../images/mobile/image-fisheye.jpg);
       }
 
       @media screen and (min-width: 64em) {
@@ -255,14 +255,14 @@
             rgba($black, 0.6),
             transparent
           ),
-          url(../../images/desktop/image-fisheye.jpg);
+          url(../images/desktop/image-fisheye.jpg);
 
         &:hover {
           background-image: linear-gradient(
               rgba($white, 0.75),
               rgba($white, 0.6)
             ),
-            url(../../images/desktop/image-fisheye.jpg);
+            url(../images/desktop/image-fisheye.jpg);
         }
       }
     }
